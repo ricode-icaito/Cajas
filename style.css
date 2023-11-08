@@ -1,0 +1,77 @@
+body {
+  background-image: repeating-conic-gradient( red 0 2%, green 2% 4%, blue 4% 6%);
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+h2 {
+  margin-bottom: 40px;
+}
+
+#hombres {
+  background: white;
+  box-shadow: 2px 2px 2px 2px rgb(160, 155, 150);
+}
+
+.caja_padre {
+  width: 600px;
+  border: 6px solid #000;
+  background-color: aqua;
+  color: red;
+  max-width: 100%;
+}
+
+.caja_hijo {
+  width: 300px;
+  border: 3px solid #000;
+  background: #fff;
+  color: blue;
+}
+
+.caja_hermano {
+  width: 150px;
+  border: 1.5px solid #000;
+  background: rgb(245, 41, 41);
+  color: whitesmoke;
+}
+
+#mujeres {
+  background: gold;
+  border-radius: 40%;
+  border: 2px solid #fff;
+  text-shadow: 2px 2px 2px rgb(155, 155, 179);
+}
+
+.caja_madre {
+  float: right;
+  width: 900px;
+  border: 2px solid rgb(160, 155, 155);
+  background-color: rgb(236, 126, 144);
+  color: yellow;
+  max-width: 100%;
+}
+
+.caja_hija {
+  width: 450px;
+  background: greenyellow;
+  color: #222;
+}
+
+.caja_hermana {
+  width: 225px;
+  background: rgb(94, 68, 238);
+  color: rgb(11, 180, 115);
+}
+
+#responsive {
+  max-width: 100%;
+  filter: contrast(.50);
+}
+
+h1:hover {
+  background: grey;
+  color: black;
+}
